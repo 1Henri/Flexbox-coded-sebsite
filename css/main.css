@@ -102,9 +102,11 @@ html {
 }
 
 body {
-  color: rgba(255, 255, 255, 0.829);
+  color: #fff;
+  display: flex;
   font-family: 'Zen Maru Gothic', sans-serif;
   font-size: 1.25em;
+  justify-content: center;
   height: 100%;
   padding: 30px 30px;
   width: 100%;
@@ -112,26 +114,31 @@ body {
 }
 
 header h1 {
-    color: rgb(243, 198, 139);
+    color: rgb(245, 206, 155);
+    font-size: 2em;
     font-family: 'Marcellus SC', serif;
 }
 header,
 footer {
   background-color: rgba(9, 136, 153, 0.884);
   height: 80px;
+  justify-content: flex-start;
   width: 100%;
   margin: 1em 1em;
   padding: 1em 2em;
+  width: 100%;
 }
 
 main {
   background: url('../img/pexels-szelei-robert-1482193.jpg') no-repeat;
   background-size: cover;
   background-position: center;
+  display: flex;
   height: 250px;
-  width: 100%;
-  padding: 1em 1em;
+  justify-content: center;
   margin: 1em 1em;
+  padding: 1em 1em;
+  width: 100%;
 
 }
 
@@ -145,41 +152,33 @@ main {
 }
 
 #highlight {
-    color: antiquewhite;
+    color: rgb(253, 228, 158);
     font-family: 'Marcellus SC', serif;
 }
 
 .flex-container {
+    align-items: center;
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
     justify-content: space-between;
+    max-width: 1200px;
 }
 
 .flex-items {
-  align-items: stretch;
-  background-color: rgba(9, 136, 153, 0.884);
-  color: #fff;
-  display: flex;
-  font-size: 1em;
-  height: 250px;
-  justify-content: space-between ;
-  line-height: 1.5em;
-  margin: 1em 1em;
-  padding: 1.5em 0.8em;
-  width: 27%;  
+    align-items: stretch;
+    background-color: rgba(9, 136, 153, 0.884);
+    display: flex;
+    font-size: 1em;
+    height: 250px;
+    justify-content: space-between ;
+    line-height: 1.5em;
+    margin: 1em 1em;
+    padding: 1.5em 1%;
+    width: 27%;  
 }
 
-.div-2 {
-    border-left: 1px solid #fff;
-    border-right: 1px solid #fff;
-  }
-
 main p {
-    color: #fff;
     font-weight: bold;
-    fon
 }
   
 span {
